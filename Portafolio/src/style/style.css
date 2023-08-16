@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(37, 35, 35);
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: Arial;
+}
+header {
+    text-align: center;
+    padding: 25px;
+}
+nav {
+    text-align: center;
+    margin-top: 25px;
+}
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding: 25px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+#csharpitem{
+    color: blueviolet;
+}
+
+#htmlitem{
+    color: orangered;
+}
+
+#javascriptitem{
+    color: yellow;
+}
