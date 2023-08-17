@@ -2,42 +2,60 @@ body {
     background-color: rgb(37, 35, 35);
     margin: 0;
     padding: 0;
-}
-
-body{
     color: white;
-    font-family: Arial;
+    font-family: arial;
+    font-weight: bold;
 }
-header {
+.titulo .titulo__texto{
     text-align: center;
     padding: 25px;
 }
-nav {
+.titulo .titulo__subtext{
     text-align: center;
-    margin-top: 25px;
+    padding: 0px;
 }
-nav a {
-    margin: 10px;
-    color: white;
-    text-decoration: none;
-}
-section {
-    padding: 25px;
-    text-align: center;
-}
-footer {
+.subtitulo{
     text-align: center;
     padding: 25px;
 }
-
-#csharpitem{
+.subtitulo .subtitulo__textocsharp{
     color: blueviolet;
 }
-
-#htmlitem{
+.subtitulo .subtitulo__textohtml{
     color: orangered;
 }
-
-#javascriptitem{
+.subtitulo .subtitulo__textojava{
     color: yellow;
+}
+.trabajos{
+    text-align: center;
+    padding: 25px;
+}
+.proyectos{
+    text-align: center;
+    padding: 25px;
+}
+.contactos{
+    text-align: center;
+    padding: 25px;
+}
+.formulario{
+    text-align: center;
+    padding: 25px;
+}
+.pies{
+    text-align: center;
+    padding: 25px;
+}
+.proyectostitulo{
+    text-align: center;
+    padding: 25px;
+}
+.contenido{
+    text-align: center;
+    padding: 25px;
+}
+.piesproyec{
+    text-align: center;
+    padding: 25px;
 }
