@@ -6,56 +6,138 @@ body {
     font-family: arial;
     font-weight: bold;
 }
-.titulo .titulo__texto{
+.titulo__texto{
     text-align: center;
-    padding: 25px;
 }
-.titulo .titulo__subtext{
+.titulo__subtext-saludo{
     text-align: center;
-    padding: 0px;
+}
+.titulo__subtext-estudio{
+    text-align: center;
 }
 .subtitulo{
     text-align: center;
-    padding: 25px;
 }
-.subtitulo .subtitulo__textocsharp{
+.subtitulo__textocsharp{
     color: blueviolet;
 }
-.subtitulo .subtitulo__textohtml{
+.subtitulo__logocsharp{
+    border-radius: 50%;
+    border: 5px blueviolet solid;
+    width: 60px;
+    height: 60px;
+}
+.subtitulo__textohtml{
     color: orangered;
 }
-.subtitulo .subtitulo__textojava{
+.subtitulo__logohtml{
+    border-radius: 50%;
+    border: 5px orangered solid;
+    width: 60px;
+    height: 60px;
+}
+.subtitulo__textojava{
     color: yellow;
+}
+.subtitulo__logojava{
+    border-radius: 50%;
+    border: 5px yellow solid;
+    width: 60px;
+    height: 60px;
 }
 .trabajos{
     text-align: center;
-    padding: 25px;
 }
 .proyectos{
     text-align: center;
-    padding: 25px;
 }
 .contactos{
     text-align: center;
-    padding: 25px;
 }
 .formulario{
     text-align: center;
-    padding: 25px;
 }
 .pies{
     text-align: center;
-    padding: 25px;
 }
 .proyectostitulo{
     text-align: center;
-    padding: 25px;
 }
 .contenido{
     text-align: center;
-    padding: 25px;
 }
 .piesproyec{
     text-align: center;
-    padding: 25px;
+}
+.contactos__logotwitter{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 60px;
+    height: 60px;
+}
+.contactos__botontwitter{
+    color: whitesmoke;
+}
+.contactos__logodiscord{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 60px;
+    height: 60px;
+}
+.contactos__botondiscord{
+    color: whitesmoke;
+}
+.contenido__imagen-compra{
+    width: 250px;
+    height: 450px;
+    border: 5px black solid;
+    border-radius: 10%;
+}
+.contenido__imagen-venta{
+    width: 250px;
+    height: 450px;
+    border: 5px black solid;
+    border-radius: 10%;
+}
+.contenido__imagen-calcompra{
+    width: 250px;
+    height: 350px;
+    border: 5px black solid;
+    border-radius: 10%;
+}
+.contenido__imagen-calcventa{
+    width: 250px;
+    height: 350px;
+    border: 5px black solid;
+    border-radius: 10%;
+}
+.contenido__diploma-pelicula1{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
+.contenido__diploma-pelicula2{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
+.contenido__diploma-excelencia1{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
+.contenido__diploma-honorprimero1{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
+}
+.contenido__diploma-honorsegundo2{
+    width: 750px;
+    height: 650px;
+    border: 5px black solid;
+    border-radius: 25%;
 }
