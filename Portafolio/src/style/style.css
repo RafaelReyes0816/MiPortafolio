@@ -1,10 +1,13 @@
-body {
-    background-color: rgb(37, 35, 35);
+*{
     margin: 0;
     padding: 0;
-    color: white;
-    font-family: arial;
+    font-family: Arial;
     font-weight: bold;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(37, 35, 35);
+    color: white;
 }
 .titulo__texto{
     text-align: center;
@@ -69,6 +72,23 @@ body {
 .piesproyec{
     text-align: center;
 }
+.proyectos__boton{
+    width: 10%;
+    color: whitesmoke;
+}
+.proyectos__boton:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.proyectos__boton::before{
+    content: "Proyectos y Certificados";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: center;
+}
 .contactos__logotwitter{
     border-radius: 50%;
     border: 5px white solid;
@@ -76,16 +96,44 @@ body {
     height: 60px;
 }
 .contactos__botontwitter{
+    width: 10%;
     color: whitesmoke;
+}
+.contactos__botontwitter:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.contactos__botontwitter::before{
+    content: "WorkShop";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: center;
 }
 .contactos__logodiscord{
     border-radius: 50%;
-    border: 5px white solid;
+    border: 5px whitesmoke solid;
     width: 60px;
     height: 60px;
 }
 .contactos__botondiscord{
+    width: 10%;
     color: whitesmoke;
+}
+.contactos__botondiscord:hover{
+    background-color: lightblue;
+    border: 4px solid lightblue;
+    border-radius: 5%;
+    padding: 0px;
+}
+.contactos__botondiscord::before{
+    content: "WorkShop";
+    color: gray;
+    border:3px solid whitesmoke;
+    width: 20px;
+    text-align: center;
 }
 .contenido__imagen-compra{
     width: 250px;
