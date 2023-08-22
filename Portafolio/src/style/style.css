@@ -11,18 +11,24 @@ body {
 }
 .titulo__texto{
     text-align: center;
+    font-weight: bold;
 }
 .titulo__subtext-saludo{
     text-align: center;
+    font-weight: bold;
 }
 .titulo__subtext-estudio{
     text-align: center;
+    font-weight: bold;
 }
 .subtitulo{
     text-align: center;
+    font-weight: bold;
+    margin: 25px;
 }
 .subtitulo__textocsharp{
     color: blueviolet;
+    font-weight: bold;
 }
 .subtitulo__logocsharp{
     border-radius: 50%;
@@ -32,6 +38,7 @@ body {
 }
 .subtitulo__textohtml{
     color: orangered;
+    font-weight: bold;
 }
 .subtitulo__logohtml{
     border-radius: 50%;
@@ -41,6 +48,7 @@ body {
 }
 .subtitulo__textojava{
     color: yellow;
+    font-weight: bold;
 }
 .subtitulo__logojava{
     border-radius: 50%;
@@ -50,24 +58,29 @@ body {
 }
 .trabajos{
     text-align: center;
+    margin: 25px;
 }
 .proyectos{
     text-align: center;
+    margin: 25px;
 }
 .contactos{
     text-align: center;
+    margin: 25px;
 }
 .formulario{
     text-align: center;
 }
 .pies{
     text-align: center;
+    margin: 25px;
 }
 .proyectostitulo{
     text-align: center;
 }
 .contenido{
     text-align: center;
+    font-weight: bold;
 }
 .piesproyec{
     text-align: center;
@@ -106,7 +119,7 @@ body {
     padding: 0px;
 }
 .contactos__botontwitter::before{
-    content: "WorkShop";
+    content: "Twitter";
     color: gray;
     border:3px solid whitesmoke;
     width: 20px;
@@ -129,7 +142,7 @@ body {
     padding: 0px;
 }
 .contactos__botondiscord::before{
-    content: "WorkShop";
+    content: "Discord";
     color: gray;
     border:3px solid whitesmoke;
     width: 20px;
