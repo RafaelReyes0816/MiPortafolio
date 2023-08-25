@@ -5,6 +5,324 @@
     font-weight: bold;
     box-sizing: border-box;
 }
+@media (max-width: 576px){
+    .titulo{
+        font-size: 20px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .trabajos{
+        font-size: 20px;
+    }
+    .proyectos{
+        font-size: 20px;
+    }
+    .contactos{
+        font-size: 25px;
+    }
+    .formulario{
+        font-size: 22px;
+    }
+    .formulario__correo{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__nombres{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__fecha{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__mensaje{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__button{
+        width: 100px;
+        height: 40px;
+    }
+    .pies__correo{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px){
+    .titulo{
+        font-size: 20px;
+    }
+    .subtitulo__logocsharp{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo__logohtml{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo__logojava{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .trabajos{
+        font-size: 20px;
+    }
+    .proyectos{
+        font-size: 20px;
+    }
+    .contactos{
+        font-size: 25px;
+    }
+    .formulario{
+        font-size: 22px;
+    }
+    .formulario__correo{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__nombres{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__fecha{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__mensaje{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__button{
+        width: 100px;
+        height: 40px;
+    }
+    .pies__correo{
+        font-size: 25px;
+    }
+}
+@media (min-width: 992px){
+    .titulo{
+        font-size: 20px;
+    }
+    .subtitulo__logocsharp{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo__logohtml{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo__logojava{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .trabajos{
+        font-size: 20px;
+    }
+    .proyectos{
+        font-size: 20px;
+    }
+    .contactos{
+        font-size: 25px;
+    }
+    .formulario{
+        font-size: 22px;
+    }
+    .formulario__correo{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__nombres{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__fecha{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__mensaje{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__button{
+        width: 100px;
+        height: 40px;
+    }
+    .pies__correo{
+        font-size: 25px;
+    }
+}
+@media (min-width: 1200px){
+    .titulo{
+        font-size: 20px;
+    }
+    .subtitulo__logocsharp{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo__logohtml{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo__logojava{
+        width: 70px;
+        height: 70px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .trabajos{
+        font-size: 20px;
+    }
+    .proyectos{
+        font-size: 20px;
+    }
+    .contactos{
+        font-size: 25px;
+    }
+    .formulario{
+        font-size: 22px;
+    }
+    .formulario__correo{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__nombres{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__fecha{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__mensaje{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__button{
+        width: 100px;
+        height: 40px;
+    }
+    .pies__correo{
+        font-size: 25px;
+    }
+}
+@media (min-width: 1920px){
+    .titulo{
+        font-size: 20px;
+    }
+    .subtitulo__logocsharp{
+        width: 80px;
+        height: 80px;
+    }
+    .subtitulo__logohtml{
+        width: 80px;
+        height: 80px;
+    }
+    .subtitulo__logojava{
+        width: 80px;
+        height: 80px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .trabajos{
+        font-size: 25px;
+    }
+    .proyectos{
+        font-size: 25px;
+    }
+    .contactos{
+        font-size: 25px;
+    }
+    .formulario{
+        font-size: 25px;
+    }
+    .formulario__correo{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__nombres{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__fecha{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__mensaje{
+        width: 400px;
+        height: 40px;
+    }
+    .formulario__button{
+        width: 100px;
+        height: 40px;
+    }
+    .pies__correo{
+        font-size: 30px;
+    }
+}
+@media (min-width:576px){
+    .proyectostitulo{
+        font-size: 13px;
+    }
+    .contenido{
+        font-size: 13px;
+    }
+    .piesproyec__texto{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px){
+    .proyectostitulo{
+        font-size: 13px;
+    }
+    .contenido{
+        font-size: 13px;
+    }
+    .piesproyec__texto{
+        font-size: 20px;
+    }
+}
+@media (min-width: 992px){
+    .proyectostitulo{
+        font-size: 13px;
+    }
+    .contenido{
+        font-size: 13px;
+    }
+    .piesproyec__texto{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1200){
+    .proyectostitulo{
+        font-size: 13px;
+    }
+    .contenido{
+        font-size: 13px;
+    }
+    .piesproyec__texto{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1920px){
+    .proyectostitulo{
+        font-size: 20px;
+    }
+    .contenido{
+        font-size: 20px;
+    }
+    .piesproyec__texto{
+        font-size: 35px;
+    }
+}
 body {
     background-color: rgb(37, 35, 35);
     color: white;
@@ -12,12 +330,12 @@ body {
     animation-name: animacion-principal;
 }
 @keyframes animacion-principal{
-    from {
+    from{
         margin-right: 100%;
         margin-top: 50%;
         width: 150%;
       }
-      to {
+      to{
         margin-right: 0%;
         margin-top: 0%;
         width: 100%;
@@ -51,8 +369,6 @@ body {
 .subtitulo__logocsharp{
     border-radius: 50%;
     border: 5px blueviolet solid;
-    width: 60px;
-    height: 60px;
 }
 .subtitulo__textohtml{
     color: orangered;
@@ -61,8 +377,6 @@ body {
 .subtitulo__logohtml{
     border-radius: 50%;
     border: 5px orangered solid;
-    width: 60px;
-    height: 60px;
 }
 .subtitulo__textojava{
     color: yellow;
@@ -71,8 +385,6 @@ body {
 .subtitulo__logojava{
     border-radius: 50%;
     border: 5px yellow solid;
-    width: 60px;
-    height: 60px;
 }
 .trabajos{
     text-align: center;
@@ -89,6 +401,9 @@ body {
 .contactos{
     text-align: center;
     margin: 25px;
+}
+.contactos__texto{
+    color: yellow;
 }
 .contactos__titulo{
     color: rgb(248, 248, 65);
@@ -113,6 +428,9 @@ body {
     text-align: center;
     font-weight: bold;
 }
+.contenido__texto-certificados{
+    font-size: 20px;
+}
 .piesproyec{
     text-align: center;
 }
@@ -136,13 +454,13 @@ body {
 .proyectostitulo__titulo{
     color: rgb(248, 248, 65);
 }
+.contenido__titulocalc{
+    color: yellow;
+}
 .contenido__titulofinanz{
     color: rgb(248, 248, 65);
 }
 .contenido__texto-certificados{
-    color: rgb(248, 248, 65);
-}
-.contenido__texto-otros{
     color: rgb(248, 248, 65);
 }
 .contactos__logotwitter{

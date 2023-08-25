@@ -53,7 +53,7 @@
         <article>
             <div class="contactos">
                 <h2 class="contactos__titulo">Contacto</h2>
-                <p class="contactos__texto">¡Conéctate conmigo en las redes sociales!</p>
+                <p class="contactos__texto">¡Redes sociales!</p>
                 <img class="contactos__logotwitter" src="img/logotwitter.png" alt="">
                 <a class="contactos__botontwitter" href="https://twitter.com/RafaelR10996376" target="_blank"></a>
                 <img class="contactos__logodiscord" src="img/logodiscord.png" alt="">
@@ -67,21 +67,21 @@
                 <h1 class="formulario__texto">Escríbeme un mensaje si deseas comunicarte conmigo</h1>
                 <form action="/my-handling-form-page" method="post"></form>
                 <ul style="list-style-type: none; padding-left: 0;">
-                    <li class="formulario__nombres">
-                        <input placeholder="Nombre y Apellido">
+                    <li>
+                        <input type="text" class="formulario__nombres" placeholder="Nombre y Apellido">
                     </li>
-                    <li class="formulario__correo">
-                        <input placeholder="Introduce tu Correo">
+                    <li>
+                        <input type="text" class="formulario__correo" placeholder="Introduce tu Correo">
                     </li>
-                    <li class="formulario__fecha">
-                        <p class="fecha__texto">Fecha de Nacimiento</p>
-                        <input type="datetime-local" name="datetime" id="datetime" />
+                    <li>
+                        <p class="formulario__texto">Fecha de Nacimiento</p>
+                        <input type="datetime-local" class="formulario__fecha" name="datetime" id="datetime" />
                     </li>
-                    <li class="formulario__mensaje">
-                        <input placeholder="Escriba su mensaje">
+                    <li>
+                        <input type="text" class="formulario__mensaje" placeholder="Escriba su mensaje">
                     </li>
-                    <li class="formulario__button">
-                        <button type="submit">Enviar</button>
+                    <li>
+                        <button type="submit" class="formulario__button">Enviar</button>
                       </li>
                 </ul>
             </div>
