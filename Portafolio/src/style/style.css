@@ -421,6 +421,12 @@ body {
 .pies__texto{
     color: rgb(248, 248, 65);
 }
+.pies__logoper{
+    border-radius: 50%;
+    border: 5px white solid;
+    width: 120px;
+    height: 120px;
+}
 .proyectostitulo{
     text-align: center;
 }
@@ -445,7 +451,7 @@ body {
     padding: 0px;
 }
 .contactos__formulario::before{
-    content: "Enviar un mensaje";
+    content: "Contactos";
     color: gray;
     border:3px solid whitesmoke;
     width: 20px;
